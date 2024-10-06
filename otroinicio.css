@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider {
+    background-image: url(./Turismo\ posrtada.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+    animation: animate 30s infinite;
+
+}
+@keyframes animate {
+    20% {
+        background-image: url(./fantasma.jpg);
+        background-size: cover;
+        text-align: center;
+    }
+    40% {
+        background-image: url(./Tren\ Bala_0.jpg);
+        background-size: cover;
+    }
+    60% {
+        background-image: url(./Turismo\ posrtada.jpg);
+        background-size: cover;
+    }
+    80% {
+        background-image: url(./VENOM2.jpg);
+        background-size: cover;
+    }
+    100% {
+        background-image: url(./garfielposter.jpg);
+        background-size: cover;
+    }
+}
+
+.cotent{
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    backdrop-filter: blur(3px);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 2rem;
+    border: 2px solid rgb(9, 97, 179);
+
+}
+.cotent > h1{
+    font-size: 55px;
+    color: white;
+
+    text-shadow: 0 0 10px #000000;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #000000;
+
+}
+ul {
+    display: none;
+}
+a {
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: #3088e0;
+    padding: 16px 37px;
+    display: inline-block;
+    border-radius: 50px;
+}

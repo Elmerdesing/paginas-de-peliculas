@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  font-family: Arial,Helvetica, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+body{
+  background-color: black;
+  background-size: cover;
+}
+
+h1{
+    color: white;
+}
+
+p{
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 6fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+.container :hover > img{
+  transform: scale(1.05);
+}
+  
+  .titulo{
+    text-align: center;
+    font-size: 3rem;
+  }
+  .peliculas {
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .peliculas img {
+    border-radius: 2rem;
+    width: 75%;
+    height: 30rem;
+  }
+  .navbar {
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  
+
+  footer {
+    background-color: #7e2929;
+    text-align: center;
+    padding: 4rem;
+}
+.derechos{
+  display: flex;
+  justify-content: center;
+}
+
+i{
+  font-size: 20px;
+  color: white;
+  margin: 20px;
+  border-radius: 60%;
+  padding: 5px;
+
+  transition: .3s ease;
+}
+.fa-brands{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin: 15px;
+  border-radius: 60%;
+  padding: 10px;
+
+  transition: .3s ease;
+}
+.fa-github:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.fa-whatsapp:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 209, 72);
+}
+.fa-facebook:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 76, 255);
+}
+.fa-house:hover{
+  color: red
+}
+.fa-heart:hover{
+  color: red
+}
+.fa-circle-play:hover{
+  color: red
+}
+.fa-video:hover{
+  color: red
+}
+.fa-magnifying-glass:hover{
+  color: red
+}
+.fa-solid{
+  transition: .3s ease;
+}
